@@ -10,7 +10,7 @@ export default class ApiService {
 
   async getPictures() {
     const params = {
-      key: process.env.API_KEY,
+      key: '34244000-42c3edd46967142fbd554b6c5',
       q: this.query,
       image_type: 'photo',
       orientation: 'horizontal',
